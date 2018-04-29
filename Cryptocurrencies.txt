@@ -1,0 +1,6 @@
+Bitcoin: 0.1
+Bitcoin-Cash: 0.01
+Ethereum: 1
+Litecoin: 3
+Neo: 4
+Bitcoin-Gold: 0.01
