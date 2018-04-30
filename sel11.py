@@ -71,6 +71,12 @@ initial = 2600
 initial1 = 1000
 print("Your Cryptocurrency:")
 sum = coins()
+ans = str(round(sum, 2))
+file = open("sum1.txt", "a")
+file.write("$" + ans + " USD\t\t")
+file.write(str(datetime.now()))
+file.write("\n")
+file.close()
 increase = ((sum - initial) / initial) * 100
 y = "%"
 print("Your running total is %.2f USD and your increase from the initital amount of $%d is %.2f%s" %(sum, initial, increase, y))
