@@ -130,11 +130,5 @@ file.close()
 y = "%"
 print("Your running total is %.2f USD and your increase from the initital amount of $%d is %.2f%s" %(sum, initial, increase, y))
 print()
-
-print("Mom's Cryptocurrency:")
-sum1 = coins1()
-increase = ((sum1 - initial1) / initial1) * 100
-y = "%"
-print("Your running total is %.2f USD and your increase from the initital amount of $%d is %.2f%s" %(sum1, initial1, increase, y))
 test = input()
 
