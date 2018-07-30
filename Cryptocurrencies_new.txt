@@ -1,0 +1,6 @@
+Bitcoin: .34
+Bitcoin-Cash: .34
+Ethereum: 2.11
+Litcoin: 4.18
+Neo: 14.2
+Bitcoin-Gold: .34
